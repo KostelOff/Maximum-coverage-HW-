@@ -58,7 +58,7 @@ class MainKtTest {
         val amount = 85_101.0
         val system = MIR
         val transferred = (0.00 + amount)
-        val expected = 638
+        val expected = 600
 
         // act
 
