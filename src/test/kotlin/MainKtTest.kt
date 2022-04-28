@@ -13,7 +13,7 @@ class MainKtTest {
         val amount = 76_000.0
         val system = MASTER_CARD
         val transferred = (0.00 + amount)
-        val expected = 501
+        val expected = 476
 
         // act
 
@@ -58,7 +58,7 @@ class MainKtTest {
         val amount = 85_101.0
         val system = MIR
         val transferred = (0.00 + amount)
-        val expected = 600
+        val expected = 638
 
         // act
 
